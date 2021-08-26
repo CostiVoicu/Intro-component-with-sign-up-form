@@ -97,6 +97,9 @@ body{
                     max-width: 11rem;
                     font-weight: $very-small-weight;
                     font-size: $font-size + 0.01rem;
+                    @media (min-width: $desktop-size){
+                        max-width: 20rem;
+                    }
                     .highlight{
                         font-weight: $big-weight;
                     }

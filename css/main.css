@@ -180,6 +180,12 @@ body .main .input #try .try__text {
   font-size: 1.01rem;
 }
 
+@media (min-width: 90rem) {
+  body .main .input #try .try__text {
+    max-width: 20rem;
+  }
+}
+
 body .main .input #try .try__text .highlight {
   font-weight: 700;
 }
